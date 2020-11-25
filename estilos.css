@@ -1,0 +1,486 @@
+*{
+    margin: 0;
+}
+/*Estilo pagina de inicio*/
+.agrupar {
+    background-color: #ffffff;
+}
+.cabeza h1 {
+    background-color: #57edf9;
+    font-size: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom: 1px solid #adb3b4;
+    padding: 5px;
+}
+
+.cabeza img {
+    width: 50px;
+    padding: 5px;
+}
+.menu{
+    text-align: center;
+}
+.menu li{
+    margin: 5px;
+    list-style: none;
+    padding: 5px;
+    font-size: 25px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline-block;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.contenedor{
+    margin: auto;
+    background-color: #57edf9;
+    width: 800px;
+    padding: 30px;
+}
+
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 600px;
+}
+
+ul.slider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+    width: 100%;
+    height: 600px;
+}
+
+ul.slider li:first-child{
+    opacity: 1;
+}
+
+ul.slider li:target{
+    opacity: 1;
+}
+
+.menuSliders{
+    text-align: center;
+    margin: 20px;
+}
+
+.menuSliders li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menuSliders li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #adb3b4;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+.seccionUno {
+    text-align: center;
+    background-color:  #ffffff;
+    border-bottom: 1px solid #adb3b4;
+    margin: 5px;
+}
+.seccionUno h1 {
+    font: bold 30px Arial;
+    margin: 5px 10px;
+}
+.seccionUno p{
+    font: lighter 20px Arial;
+    padding: 5px 10px;
+}
+.seccionDos {
+    text-align: left;
+    background-color:  #57edf9;
+    border: 1px solid #adb3b4;
+    margin: 5px;
+    margin-right: 600px;
+}
+.seccionDos h1 {
+    font: bold 30px Arial;
+    margin: 5px 10px;
+}
+.seccionDos p{
+    font: lighter 20px Arial;
+    padding: 0px 10px;
+}
+.seccionTres {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.seccionTres img{
+    width: 100%;
+    height: 600;
+}
+.pieDePagina{
+    margin: 5px 0px;
+    padding: 10px;
+    font: bold 10px Arial;
+    border: 1px solid #adb3b4;
+    background-color: #57edf9;
+    clear: both;
+}
+
+.pieDePagina li{
+    font: 15px Arial bold;
+    padding: 5px;
+}
+/*Estilo pagina consejos*/
+.seccionConsejos {
+    text-align: center;
+    margin: 5px 200px;
+    background-color: #57edf9;
+    border-bottom: 1px solid #adb3b4;
+}
+.seccionConsejos h1 {
+    font: bold 40px Arial;
+    padding: 10px;
+}
+.seccionC1 {
+    margin: 10px 10px;
+}
+.seccionC1 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC1 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionC2 {
+    margin: 10px 10px;
+}
+.seccionC2 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC2 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionC3 {
+    margin: 10px 10px;
+}
+.seccionC3 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC3 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionImagen {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+.seccionImagen img{
+    width: 100%;
+    height: 600;
+}
+.seccionConsejosA {
+    text-align: center;
+    margin: 5px 200px;
+    background-color: #57edf9;
+    border-bottom: 1px solid #adb3b4;
+}
+.seccionConsejosA h1 {
+    font: bold 40px Arial;
+    padding: 10px;
+}
+.seccionC4 {
+    margin: 10px 10px;
+}
+.seccionC4 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC4 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 600px;
+    padding: 10px;
+}
+.seccionC5 {
+    margin: 10px 10px;
+}
+.seccionC5 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC5 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 600px;
+    padding: 10px;
+}
+.seccionC6 {
+    margin: 10px 10px;
+}
+.seccionC6 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC6 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 600px;
+    padding: 10px;
+}
+.seccionC7 {
+    margin: 10px 10px;
+}
+.seccionC7 h2 {
+    font: bold 30px Arial;
+    margin-bottom: 5px;
+}
+.seccionC7 p{
+    font: lighter 20px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 600px;
+    padding: 10px;
+}
+.seccionImagen1 {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 500px;
+}
+.seccionImagen1 img{
+    width: 100%;
+    height: 600;
+}
+.pieDePagina{
+    margin: 5px 0px;
+    padding: 10px;
+    font: bold 10px Arial;
+    border: 1px solid #adb3b4;
+    background-color: #57edf9;
+    clear: both;
+}
+
+.pieDePagina li{
+    font: 15px Arial bold;
+    padding: 5px;
+}
+/*Estilo pagina informacion del filtro*/
+.seccionI {
+    text-align: center;
+    margin: 5px 200px;
+    background-color: #57edf9;
+    border-bottom: 1px solid #adb3b4;
+}
+.seccionI h1 {
+    font: bold 40px Arial;
+    padding: 10px;
+}
+.seccionI1 {
+    margin: 10px 10px;
+}
+.seccionI1 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionI1 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionI1 ul li {
+    font: lighter 15px Arial;
+    background-color:  #57edf9;
+    margin-right: 500px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.seccionI2 {
+    margin: 10px 10px;
+}
+.seccionI2 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionI2 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionI3 {
+    margin: 10px 10px;
+}
+.seccionI3 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionI3 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionImagen {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    width: 450px;
+}
+.seccionImagen img{
+    width: 100%;
+    height: 600;
+}
+.pieDePagina{
+    margin: 5px 0px;
+    padding: 10px;
+    font: bold 10px Arial;
+    border: 1px solid #adb3b4;
+    background-color: #57edf9;
+    clear: both;
+}
+
+.pieDePagina li{
+    font: 15px Arial bold;
+    padding: 5px;
+}
+/*Estilo pagino de soporte*/
+.seccionA {
+    text-align: center;
+    margin: 5px 200px;
+    background-color: #57edf9;
+    border-bottom: 1px solid #adb3b4;
+}
+.seccionA h1 {
+    font: bold 40px Arial;
+    padding: 10px;
+}
+.seccionA1 {
+    margin: 10px 10px;
+}
+.seccionA1 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionA1 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionA2 {
+    margin: 10px 10px;
+}
+.seccionA2 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionA2 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionA3 {
+    margin: 10px 10px;
+}
+.seccionA3 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionA3 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    margin-right: 500px;
+    padding: 10px;
+}
+.seccionA3 ul li {
+    font: lighter 15px Arial;
+    background-color:  #57edf9;
+    margin-right: 500px;
+    padding: 10px;
+    margin-top: 0px;
+}
+.seccionA4 {
+    margin: 10px 10px;
+}
+.seccionA4 h2 {
+    font: bold 25px Arial;
+    margin-bottom: 5px;
+}
+.seccionA4 p{
+    font: lighter 15px Arial;
+    margin-top: 5px;
+    background-color:  #57edf9;
+    border-bottom: 1px solid #adb3b4;
+    margin-right: 500px;
+    padding: 10px;
+}
+.pieDePagina{
+    margin: 5px 0px;
+    padding: 10px;
+    font: bold 10px Arial;
+    border: 1px solid #adb3b4;
+    background-color: #57edf9;
+    clear: both;
+}
+
+.pieDePagina li{
+    font: 15px Arial bold;
+    padding: 5px;
+}
